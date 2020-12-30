@@ -33,9 +33,14 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+<link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+
 </head>
 
 <body>
+
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -123,7 +128,9 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <!--form action="forms/contact.php" method="post" role="form" class="php-email-form"-->
+            <form action="https://send.pageclip.co/7H3dpGjS6E1xV10ey3U3tylZD6j2d2gw" class="pageclip-form" method="post">
+
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -147,7 +154,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" class="pageclip-form__submit">Send Message</button></div>
             </form>
 
           </div>
@@ -192,6 +199,9 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
